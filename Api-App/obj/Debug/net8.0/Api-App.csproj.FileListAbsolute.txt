@@ -13,6 +13,7 @@ C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\Api-Ap
 C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\Api-App.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\Api-App.RazorAssemblyInfo.cache
 C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\Api-App.RazorAssemblyInfo.cs
+C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\Api-App.sourcelink.json
 C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\sebas\OneDrive\Documents\Prueba_Tecnica\Api-App\obj\Debug\net8.0\staticwebassets\msbuild.Api-App.Microsoft.AspNetCore.StaticWebAssets.props

@@ -9,7 +9,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped<DocumentService>();
 
-builder.Services.AddHttpClient("ZiurAPI", client => {
+builder.Services.AddHttpClient<DocumentService>(client => {
     client.BaseAddress = new Uri("https://mainserver.ziursoftware.com/Ziur.API/basedatos_01/ZiurServiceRest.svc/api/DocumentosFillsCombos");
     client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", "ae8bad44-7348-11ee-b962-0242ac120002");
 });
