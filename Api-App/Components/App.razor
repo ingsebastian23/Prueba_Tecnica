@@ -4,8 +4,19 @@
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
-        <p>Sorry, there's nothing at this address.</p>
+        
     </NotFound>
 </Router>
 
 <RedirectToDefault />
+
+<button @onclick="NavigateToDocuments" class="btn btn-primary m-5">Obtener Listado</button>
+
+@code {
+    [Inject] private NavigationManager NavigationManager { get; set; } = default!;
+
+    private void NavigateToDocuments()
+    {
+        NavigationManager.NavigateTo("/documents");
+    }
+}
