@@ -1,0 +1,41 @@
+@page "/documents"
+@inject Api_App.Data.DocumentService DocumentService
+
+
+    <h3>Document List</h3>
+    @if (documents == null)
+    {
+        <p>Loading...</p>
+    }
+    else
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Descripcion</th>
+                    <th>VActiva</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var doc in documents)
+                {
+                    <tr>
+                        <td>@doc.Codigo</td>
+                        <td>@doc.Descripcion</td>
+                        <td>@doc.VActiva</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+@code {
+    private List<Document>? documents;
+    
+    protected override async Task OnInitializedAsync(){
+        documents = await DocumentService.GetDocumentsAsync();
+    }
+
+
+}
